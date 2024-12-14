@@ -1,7 +1,7 @@
 <template>
   <div class="mainPart2">
     <div class="TitleIntroduction" ref="header">
-        <img class="ServiceTitle" src="https://s3plus.meituan.net/v1/mss_4067b040e3364072a20737a5254654ea/waimai-cfe-custom-pc-08ddc77d/production/assets/serviceintro-cb423af0c3.png">
+        <img class="ServiceTitle" src="../../assets/37.png">
     </div>
     <div class="showPart" ref="title">
         <div class="SelectPart">
@@ -28,7 +28,7 @@
             </div>
         </div>
         <div class="viewPart" ref="viewAnime">
-            <img class="phoneEdge" src="https://s3plus.sankuai.com/v1/mss_c4375b35f5cb4e678b5b55a48c40cf9d/waimai-c-iweb/%E6%89%8B%E6%9C%BA%E5%A4%96%E5%A3%B32%402x.png">
+            <img class="phoneEdge" src="../../assets/5.png">
             <img 
               v-for="(page, idx) in AppPage"
               :key="idx"
@@ -53,33 +53,33 @@ export default {
                 {
                     name:'美食 Delicacy',
                     subTitle:'大牌优惠',
-                    iconPath:'https://p0.meituan.net/travelcube/88404bd7e01d3e750712ab5fa32237f51546.png',
-                    iconPathActive:'https://p1.meituan.net/travelcube/d021ba06885ae9377e555a76a6a27f762776.png',
+                    iconPath:require('../../assets/6.png'),
+                    iconPathActive:require('../../assets/7.png'),
                 },
                 {
                     name:'甜品饮品 Desserts&Drinks',
                     subTitle:'幸福甜蜜',
-                    iconPath:'https://p0.meituan.net/travelcube/d6840d5c3f8a35db3c643bb70bdf1b0a2176.png',
-                    iconPathActive:'https://p1.meituan.net/travelcube/031c712bdf99b4e11c7c286af7c8d6593495.png',
+                    iconPath:require('../../assets/8.png'),
+                    iconPathActive:require('../../assets/9.png'),
                 },
                 {
                     name:'水果生鲜 Fresh foods',
                     subTitle:'新鲜速达',
-                    iconPath:'https://p1.meituan.net/travelcube/de0c9acd3d5711e482b9c029d1ee46702136.png',
-                    iconPathActive:'https://p0.meituan.net/travelcube/6a035852652f87c108934a64409817d73462.png',
+                    iconPath:require('../../assets/10.png'),
+                    iconPathActive:require('../../assets/11.png'),
                 },
                 {
                     name:'超市便利 SuperMarket',
                     subTitle:'优惠促销',
-                    iconPath:'https://p0.meituan.net/travelcube/88404bd7e01d3e750712ab5fa32237f51546.png',
-                    iconPathActive:'https://p0.meituan.net/travelcube/92a1e16f420880cbc6bac9a6054530b82289.png',
+                    iconPath:require('../../assets/12.png'),
+                    iconPathActive:require('../../assets/13.png'),
                 }
             ],
             AppPage:[
-                'https://p0.meituan.net/travelcube/39255a16d132c9c806ee59707b8bff5d705260.png',
-                'https://p0.meituan.net/travelcube/4ac7153d262dda2248aaf9500f0626d8422358.png',
-                'https://p0.meituan.net/travelcube/03d59ba2943f5a0c7a3ea946fe199279457557.png',
-                'https://p0.meituan.net/travelcube/1d2283db8adfbd7b1d3c48d31da0da62717653.png'
+                require('../../assets/14.png'),
+                require('../../assets/15.png'),
+                require('../../assets/16.png'),
+                require('../../assets/17.png')
             ]
         }
     },

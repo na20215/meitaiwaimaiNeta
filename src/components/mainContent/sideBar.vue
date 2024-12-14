@@ -5,9 +5,9 @@
         <span>顶部</span>
     </div>
     <span>美团外卖app</span>
-    <img src="https://p0.meituan.net/openhfiveimages/bd3ad927b2ebc004f30726e0cf01601d6145.png">
+    <img src="../../assets/30.png">
     <span>美团外卖小程序</span>
-    <img src="https://p0.meituan.net/openhfiveimages/e6d83df6f86e6da08def42371f5f0fba5989.png">
+    <img src="../../assets/31.png">
   </div>
 </template>
 

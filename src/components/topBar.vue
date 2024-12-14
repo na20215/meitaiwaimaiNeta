@@ -24,7 +24,6 @@ export default {
         return{
             isActive:'首页',
             isAtTop: true,
-            LogoStytle: 'https://p0.meituan.net/openhfiveimages/9018af19486e9bc15c111142c655a20315008.png',
         }
     },
     computed:{
@@ -44,8 +43,8 @@ export default {
         },
         SetLogoStyle(){
             return this.isAtTop ?
-             'https://p0.meituan.net/openhfiveimages/9018af19486e9bc15c111142c655a20315008.png':
-             'https://p0.meituan.net/openhfiveimages/073cf4ab03d6bc6fa117b53157f3622e4898.png';
+             require('../assets/35.webp'):
+             require('../assets/36.webp');
         }
         
     },

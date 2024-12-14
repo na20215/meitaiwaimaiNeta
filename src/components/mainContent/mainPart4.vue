@@ -1,7 +1,7 @@
 <template>
     <div class="mainPart4">
         <div class="part4Title" ref="header">
-        <img src="https://s3plus.meituan.net/v1/mss_4067b040e3364072a20737a5254654ea/waimai-cfe-custom-pc-08ddc77d/production/assets/news-b87efef440.png">
+        <img src="../../assets/23.png">
       </div>
       <div class="maintainPart" ref="main">
             <div class="slidingWindow">
@@ -53,42 +53,42 @@
                     Title:'保障骑手安心无忧送餐路 美团外卖首发《骑手生活安全指',
                     TitleText:'保障骑手安心无忧送餐路 美团外卖首发《骑手生活安全指南》',
                     Content:'随着大众餐饮消费升级，外卖行业发展迅速。数据显示，2017年美团外卖日完成订单量突破2100万单，稳居行业第一，成...',
-                    img:'https://p0.meituan.net/travelcube/40d92ceb5dcfd9925bfcd0941b8a7658125746.jpg',
+                    img:require('../../assets/24.jpg'),
 
                     },
                     {
                     Title:'MINISO名创优品正式入驻美团闪购 时尚单品30分钟送达',
                     TitleText:'MINISO名创优品正式入驻美团闪购 时尚单品30分钟送达',
                     Content:'美团闪购与设计师品牌MINISO名创优品共同发布消息，双方即日起正式开展品牌合作，名创优品在北京、上海、广州、深...',
-                    img:'https://p0.meituan.net/travelcube/6a596897f9664ac96de69f58c8416b7081998.jpg',
+                    img:require('../../assets/25.jpg'),
 
                     },
                     {
                     Title:'专业食品安全检测团队进驻美团点评 从此舌尖安全有他们',
                     TitleText:'专业食品安全检测团队进驻美团点评 从此舌尖安全有他们守护',
                     Content:'外卖订餐平台对合作商户的食品安全监察力度再次加码。近日,美团点评先后与检科测试集团有限公司、中农孚德检测技术...',
-                    img:'https://p0.meituan.net/travelcube/8a1a515736eb0d25d58fbc8968a8d99f73354.jpg',
+                    img:require('../../assets/26.jpg'),
 
                     },
                     {
                     Title:'Trustdata发布2018上半年外卖份额数据 美团饿了么百度',
                     TitleText:'Trustdata发布2018上半年外卖份额数据 美团饿了么百度“631”格局三分天下',
                     Content:'报告显示，美团外卖以59%的市场交易额领跑行业，相当于饿了么与百度外卖市场交易额之和的1.5倍，互联网外卖行业呈...',
-                    img:'https://p1.meituan.net/travelcube/582c4561abe1e2cc1e36636fcef9f0c236627.jpg',
+                    img:require('../../assets/27.jpg'),
                         
                     },
                     {
                     Title:'美团上线闪购业务 以“快”破局助力零售升级',
                     TitleText:'美团上线闪购业务 以“快”破局助力零售升级',
                     Content:'7月18日，美团点评举办“以快破局•助力零售升级” 2018美团闪购发布会，正式上线美团闪购业务，涵盖超市便利、生鲜果...',
-                    img:'https://p0.meituan.net/travelcube/aa21d01edfbd24db548ab2d002343da860439.jpg',
+                    img:require('../../assets/28.jpg'),
                         
                     },
                     {
                     Title:'美团城市新青年 外卖骑手正能量图鉴',
                     TitleText:'美团城市新青年 外卖骑手正能量图鉴',
                     Content:'一个时代的性格，是青年代表的性格；一个时代的精神，是青年代表的精神。美团外卖骑手群体正是一群努力学习提升自...',
-                    img:'https://p0.meituan.net/travelcube/7235a41b643a93ea23c6b90875689a7968302.jpg',
+                    img:require('../../assets/29.jpg'),
                     },
 
                 ]

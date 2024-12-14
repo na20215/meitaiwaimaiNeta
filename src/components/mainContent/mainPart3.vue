@@ -1,7 +1,7 @@
 <template>
     <div class="mainPart3">
       <div class="part3Title" ref="header">
-        <img src="https://s3plus.meituan.net/v1/mss_4067b040e3364072a20737a5254654ea/waimai-cfe-custom-pc-08ddc77d/production/assets/story-7c3e0597d5.png">
+        <img src="../../assets/18.png">
       </div>
       <div class="maintainPart" ref="main">
         <div class="previousPage" @click="previousPage"><span>&lt;</span></div>
@@ -17,7 +17,7 @@
               >
               <div class="content">
                 <div class="titlePart">
-                  <img class="logo" src="https://p0.meituan.net/travelcube/22d5fe01d4eb54ce117cc96377fe9c1d4418.png">
+                  <img class="logo" src="../../assets/19.png">
                   <div>{{ story.name }}</div>
                 </div>
                 <h2 class="title">{{ story.Title }}</h2>
@@ -54,22 +54,19 @@
         stories: [
           {
             name:'美团服务市场',
-            storyPath:'https://p0.meituan.net/travelcube/609cd1a366066c8eff61b20c551bcb6074788.jpg',
+            storyPath:require('../../assets/20.jpg'),
             Title:'米粉面馆接入经营助手服务，收入增幅达51.52%',
             storyContent:'开一家店有多操心？加盟、选址、经营、管理到真正赚钱，期间的辛苦只有每家店老板才深有体会。美团服务市场聚集垂直领域优质服务商，打造一站式服务生态！从新店开业到老店升级、从店铺装修到营销托管、从食材供应到金融服务等，为所有商家提供店铺经营全方位服务，解决经营所遇难题，助力轻松做生意。',
-            href:'https://waimai.meituan.com/cpc/csrpc/story.html?page_name=one',
           },{
             name:'美团外卖骑手人物：李军',
-            storyPath:'https://p0.meituan.net/travelcube/39003b966800f685d2b82c73e5fa8b2d96534.jpg',
+            storyPath:require('../../assets/21.jpg'),
             Title:'为减肥而成为美团兼职骑手，后来副业变“主业”',
             storyContent:'李君是11位骑手中的一位，来自内蒙古包头市，他近三个月的准时率平均达到了99.9%，满意度100。当问到他知道自己可以去俄罗斯看世界杯时是什么心情，李君说接到电话刚开始不敢相信，后来反应过来就直接飞奔回家拿上身份证就去办加急护照了。开心激动的心情久久难平复……',
-            href:'https://waimai.meituan.com/cpc/csrpc/story.html?page_name=two',
           },{
             name:'美团外卖骑手人物：徐振',
-            storyPath:'https://p0.meituan.net/travelcube/583387bb07e6701874c71aeddc051b7590731.jpg',
+            storyPath:require('../../assets/22.jpg'),
             Title:'平凡之路上的英雄梦',
             storyContent:'我觉得自从成了美团众包骑手之后，遇到了很多有趣新奇的人和事。以前我的生活比较单调，上班、回家两点一线。加入美团众包后，认识了许多朋友，帮助了一些人也得到了一些人的帮助。美团众包，为我的生活打开了一扇新的大门。我喜欢它的弹性、自由，让我对生活有了更多的掌控......',
-            href:'https://waimai.meituan.com/cpc/csrpc/story.html?page_name=three ',
           }
         ],
         group:['first','second','third'],

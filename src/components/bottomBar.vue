@@ -23,17 +23,17 @@
             <div class="partRight">
                 <h3>更多商家，更多优惠</h3>
                 <div class="QRcodePart">
-                    <img class="QRCode" src="https://p0.meituan.net/openhfiveimages/e6e8f1322955477f048cce1aef812b696647.png">
-                    <img class="QRCode" src="https://p0.meituan.net/openhfiveimages/c1c1f74cb23051966c2ae3e2d8fc7ecf6504.png">
+                    <img class="QRCode" src="../assets/38.webp">
+                    <img class="QRCode" src="../assets/39.webp">
                 </div>
             </div>
         </div>
     </div>
     <div class="part2">
-        <span class="botinfo"><img src="https://s3plus.meituan.net/v1/mss_e602b0ee72a245fd9997b7276211d882/waimai-web/goverment_cut.png" :style="{height:'1.25rem',width:'1.25rem'}">北京三快科技有限公司</span>
+        <span class="botinfo"><img src="../assets/32.png" :style="{height:'1.25rem',width:'1.25rem'}">北京三快科技有限公司</span>
         <span class="botinfo" >©️ meituan.com 京ICP证070791号  <a class="botinfo" href="https://beian.miit.gov.cn/">京ICP备10211739号-1</a></span>
         
-        <a class="botinfo" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11000002002052"><img src="https://p0.meituan.net/travelcube/d0289dc0a46fc5b15b3363ffa78cf6c719256.png">京公网安备 11000002002052号</a>
+        <a class="botinfo" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11000002002052"><img src="../assets/33.png">京公网安备 11000002002052号</a>
     </div>
 </div>
   
